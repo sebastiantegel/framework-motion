@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+}
+
+header {
+  min-height: 20dvh;
+}
+
+main {
+  min-height: 50dvh;
+}
+
+footer {
+  min-height: 30dvh;
+}
