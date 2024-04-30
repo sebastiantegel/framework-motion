@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Switch } from "../components/Switch";
 import { Checkbox } from "../components/Checkbox";
 import { Button } from "../components/Button";
+import Loader from "../components/Loader";
 
 export const Home = () => {
   const [toggleSwitch, setToggleSwitch] = useState(false);
@@ -24,6 +25,7 @@ export const Home = () => {
       <Button onClick={() => {}} color="rgb(155, 155, 24)">
         Test
       </Button>
+      <Loader size={100}></Loader>
     </section>
   );
 };
